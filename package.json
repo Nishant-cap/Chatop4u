@@ -1,0 +1,25 @@
+{
+  "name": "nodeexucmodule",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon app.js",
+    "postversion": "npm publish",
+    "preversion": "npm test"
+  },
+  "dependencies": {
+    "azure-cli": "^0.10.20",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": "14.17.1",
+    "npm": "7.19.0"
+  }
+}
